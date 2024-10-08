@@ -16,8 +16,13 @@ object NavRegistry {
         navList.add(NavData("tags_fragment","com.niu.jetpack_android_online.navigation.TagsFragment",false,Fragment))
                 navList.add(NavData("user_fragment","com.niu.jetpack_android_online.navigation.UserFragment",false,Fragment))
                 navList.add(NavData("home_fragment","com.niu.jetpack_android_online.pages.home.HomeFragment",true,Fragment))
-                navList.add(NavData("category_fragment","com.niu.jetpack_android_online.pages.category.CategoryFragment",false,Fragment))
                 navList.add(NavData("activity_capture","com.niu.jetpack_android_online.pages.publish.CaptureActivity",false,Activity))
+                navList.add(NavData("category_fragment","com.niu.jetpack_android_online.pages.category.CategoryFragment",false,Fragment))
+                navList.add(NavData("tags_fragment","com.niu.jetpack_android_online.navigation.TagsFragment",false,Fragment))
+                navList.add(NavData("user_fragment","com.niu.jetpack_android_online.navigation.UserFragment",false,Fragment))
+                navList.add(NavData("home_fragment","com.niu.jetpack_android_online.pages.home.HomeFragment",true,Fragment))
+                navList.add(NavData("activity_capture","com.niu.jetpack_android_online.pages.publish.CaptureActivity",false,Activity))
+                navList.add(NavData("category_fragment","com.niu.jetpack_android_online.pages.category.CategoryFragment",false,Fragment))
 
     }
 
